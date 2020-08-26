@@ -84,7 +84,7 @@
           <div class="column content">
             <p>Bizlere yanda gördüğünüz numaralardan ve sosyal mecrâlardan ulaşabilir, haritada belirtilen adresimizi ziyaret ederek her zaman bizlere ulaşabilirsiniz. Özel günlerinizi bizimle beraber yapmak istediğiniz için size teşekkür ediyoruz.</p>
 
-            <small>Ömercikler Mahallesi, Yahyalı Caddesi, Numara 42, (Özpaş Market yanı, BİM üstü)</small>
+            <small>Ömercikler Mahallesi, Yahyalı Caddesi, Numara 42, (Özpaş Market yanı), Akyazı/Sakarya</small>
           </div>
 
           <div class="column lexend">
@@ -157,6 +157,8 @@
   position: relative;
 
   img {
+    max-height: -webkit-fill-available;
+    width: fit-content;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
@@ -232,9 +234,9 @@
       transform: none;
       bottom: 1em;
       line-height: normal;
-
+      left: 50%;
       top: 50%;
-      transform: translateY(-25%);
+      transform: translateY(-25%) translateX(-50%);
     }
   }
 
