@@ -1,0 +1,24 @@
+{
+  "name": "btdugunsalonu",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Abdulbaki Dursun",
+    "email": "abdulbakidrs@gmail.com",
+    "url": "https://eggsy.xyz"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "export": "nuxt generate",
+    "serve": "nuxt start"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.3",
+    "nuxt-buefy": "^0.4.2",
+    "sass-loader": "^10.0.1",
+    "vue-scroll2": "^0.2.2",
+    "vue2-google-maps": "^0.10.7"
+  }
+}
