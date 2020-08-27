@@ -50,6 +50,9 @@ export default {
       src: "@/plugins/scrollbehavior.js",
     },
   ],
+  env: {
+    GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
+  },
   components: true,
   modules: ["nuxt-buefy"],
 };
