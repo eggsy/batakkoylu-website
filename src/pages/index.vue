@@ -81,7 +81,7 @@
         <h2 class="menu-label is-size-5">İletişim</h2>
 
         <div class="columns mb-4">
-          <div class="column content">
+          <div class="column content mb-0">
             <p>Bizlere yanda gördüğünüz numaralardan ve sosyal mecrâlardan ulaşabilir, haritada belirtilen adresimizi ziyaret ederek her zaman bizlere ulaşabilirsiniz. Özel günlerinizi bizimle beraber yapmak istediğiniz için size teşekkür ediyoruz.</p>
 
             <small>Ömercikler Mahallesi, Yahyalı Caddesi, Numara 42, (Özpaş Market yanı), Akyazı/Sakarya</small>
