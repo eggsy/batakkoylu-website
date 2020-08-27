@@ -87,7 +87,7 @@
             <small>Ömercikler Mahallesi, Yahyalı Caddesi, Numara 42, (Özpaş Market yanı), Akyazı/Sakarya</small>
           </div>
 
-          <div class="column lexend">
+          <div class="column">
             <div class="columns contact">
               <div class="column">
                 <div class="is-flex">
@@ -173,7 +173,6 @@
     h1,
     p {
       color: white;
-      font-family: "Lexend Deca", sans-serif;
       text-shadow: 2px 2px 10px black;
     }
   }
@@ -202,10 +201,6 @@
     width: 100%;
     height: 400px;
   }
-}
-
-.lexend {
-  font-family: "Lexend Deca", sans-serif;
 }
 
 @keyframes scroll {

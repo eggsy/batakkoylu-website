@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .body {
   font-family: "Lexend Deca", sans-serif;
 
