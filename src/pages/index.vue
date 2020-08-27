@@ -36,7 +36,7 @@
         <h2 class="menu-label is-size-5">Neden biz?</h2>
 
         <div class="columns is-marginless my-4 is-multiline">
-          <card
+          <Card
             v-for="(card, index) in cards"
             :key="index"
             :card="card"
@@ -134,7 +134,7 @@
         <GmapMap
           :center="{ lat: 40.685276, lng: 30.622743 }"
           :zoom="17"
-          style="width:100%;height:300px;"
+          :style="{ width: '100%', height: '300px' }"
         >
           <GmapMarker
             :key="index"

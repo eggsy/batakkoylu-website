@@ -15,7 +15,7 @@
     height: 128px;
     width: 128px;
     cursor: pointer;
-    transform: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 0.75;
