@@ -20,5 +20,8 @@
     "sass-loader": "^10.0.1",
     "vue-scroll2": "^0.2.2",
     "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1"
   }
 }

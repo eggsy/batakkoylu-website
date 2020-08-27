@@ -5,7 +5,7 @@ Vue.use(VueGoogleMaps, {
   load: {
     region: "TR",
     language: "tr",
-    key: "AIzaSyDwdp3h2zQ-8A7aFHnTIyOZOV3NOehfots",
+    key: process.env.GOOGLE_API_KEY,
     libraries: "places",
   },
 });

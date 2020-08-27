@@ -14,6 +14,7 @@ Sitenin canlı önizlemesini görmek için [buraya](https://batakkoylu.netlify.a
 - Bu depoyu bilgisayarınıza klonlayın veya indirin.
 - İndirdiğiniz klasörün içerisinde bir terminal penceresi açın.
 - Modülleri `yarn` veya `yarn install` komutu ile yükleyin.
+- `.env.example` adlı dosyanın ismini `.env` olarak değiştirin ve içerisindeki alanları doldurun.
 - Yükleme tamamlandıktan sonra siteyi çalıştırmak için `yarn dev` yazın.
   - Siteyi statik olarak dışa aktarıp başka platformlarda paylaşmak için `yarn export` komutunu kullanın ve `dist/` klasörüne oluşturulacak dosyaları sunucu sağlayıcınıza yükleyin.
 

@@ -1,3 +1,5 @@
+import { resolve } from "path";
+
 export default {
   mode: "spa",
   target: "static",
@@ -46,4 +48,5 @@ export default {
   ],
   components: true,
   modules: ["nuxt-buefy"],
+  buildModules: [["@nuxtjs/dotenv", { path: resolve("./") }]],
 };
