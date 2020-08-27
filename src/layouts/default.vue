@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss">
-.body {
+body {
   font-family: "Lexend Deca", sans-serif;
 
   .menu-label {
