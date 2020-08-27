@@ -1,8 +1,4 @@
 import { resolve } from "path";
-import { config } from "dotenv";
-
-console.log(process.env);
-process.env.NETLIFY ? false : config({ path: resolve("./") });
 
 export default {
   mode: "spa",
@@ -55,4 +51,5 @@ export default {
   },
   components: true,
   modules: ["nuxt-buefy"],
+  buildModules: [["@nuxtjs/dotenv", { path: resolve("./") }]],
 };
