@@ -321,7 +321,7 @@ export default {
         },
         {
           title: "Özel Organizasyonlar",
-          image: "/images/box/ozel_organizasyonlar2.jpg",
+          image: "/images/box/ozel_organizasyonlar.jpg",
         },
       ],
     };
