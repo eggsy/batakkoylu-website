@@ -40,7 +40,7 @@
             v-for="(card, index) in cards"
             :key="index"
             :card="card"
-            :class="{ 'column': true, 'mx-4': index % 2 && screenSize && screenSize > 1024, 'my-4': screenSize && screenSize < 1024 }"
+            :class="{ 'column': true, 'mr-4': index + 1 !== cards.length && screenSize && screenSize > 1024, 'my-4': screenSize && screenSize < 1024 }"
           />
         </div>
       </section>
@@ -53,7 +53,7 @@
           :style="{ justifyContent: 'space-between' }"
         >
           <Box
-            class="column is-one-quarter-desktop"
+            :class="{ column: true, 'mr-2': index + 1 !== boxes.length }"
             v-for="(box, index) in boxes"
             :key="index"
             :box="box"

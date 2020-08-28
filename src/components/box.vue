@@ -10,7 +10,6 @@
 
 <style lang="scss" scoped>
 .box {
-  width: 275px;
   position: relative;
   height: 200px;
   object-fit: cover;
