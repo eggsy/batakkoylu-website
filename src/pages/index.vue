@@ -112,10 +112,6 @@
                 </div>
                 <div class="is-flex">
                   <b-icon class="mr-2" icon="phone"></b-icon>
-                  <a href="tel:05334736032">0533 473 60 32</a>
-                </div>
-                <div class="is-flex">
-                  <b-icon class="mr-2" icon="phone"></b-icon>
                   <a href="tel:05444790667">0544 479 06 67</a>
                 </div>
                 <div class="is-flex">
