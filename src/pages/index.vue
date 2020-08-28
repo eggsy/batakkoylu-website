@@ -292,7 +292,7 @@ export default {
         {
           title: "Uygun fiyatlar",
           description:
-            "Harcamalarınızı sadece kendi istediğiniz kadar yapın, gersini bize bırakın!",
+            "Harcamalarınızı sadece kendi istediğiniz kadar yapın, gerisini bize bırakın!",
           gradient: ["rgba(41, 128, 185, 1.0)", "rgba(41, 128, 185, 0.75)"],
         },
         {
