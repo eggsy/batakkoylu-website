@@ -10,6 +10,7 @@
 
 <style lang="scss" scoped>
 .box {
+  width: calc(25% - 5px);
   position: relative;
   height: 200px;
   object-fit: cover;
@@ -24,6 +25,7 @@
   }
 
   span {
+    max-width: 90%;
     width: fit-content;
     position: absolute;
     top: 50%;

@@ -49,12 +49,12 @@
         <h2 class="menu-label is-size-5">Hizmetlerimiz</h2>
 
         <div
-          class="columns is-marginless my-4 is-multiline"
+          class="columns is-marginless mt-4 is-multiline"
           :style="{ justifyContent: 'space-between' }"
         >
           <Box
-            :class="{ column: true, 'mr-2': index + 1 !== boxes.length }"
             v-for="(box, index) in boxes"
+            :class="{ 'column is-one-quarter is-marginless': true, 'mb-2': index + 1 < 4 || screenSize < 1024 }"
             :key="index"
             :box="box"
           />
@@ -312,7 +312,7 @@ export default {
           image: "/images/box/dugun_organizasyonu.jpg",
         },
         {
-          title: "Nişan ve Nikah Organizasyonu",
+          title: "Nişan Organizasyonu",
           image: "/images/box/nisan_organizasyonu.jpg",
         },
         {
@@ -322,6 +322,22 @@ export default {
         {
           title: "Özel Organizasyonlar",
           image: "/images/box/ozel_organizasyonlar.jpg",
+        },
+        {
+          title: "Yemekli Organizasyon",
+          image: "/images/box/yemekli_organizasyon.png",
+        },
+        {
+          title: "Nikah Organizasyonu",
+          image: "/images/box/nikah_organizasyonu.jpg",
+        },
+        {
+          title: "Doğum Günü Organizasyonu",
+          image: "/images/box/dogum_gunu_organizasyonu.jpeg",
+        },
+        {
+          title: "Sünnet Organizasyonu",
+          image: "/images/box/sunnet_organizasyonu.png",
         },
       ],
     };

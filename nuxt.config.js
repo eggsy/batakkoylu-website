@@ -29,6 +29,10 @@ export default {
         name: "og:image",
         content: "/images/logo.png",
       },
+      {
+        name: "keywords",
+        content: "sakarya, akyazı, akyazi, düğün, salonu, düğün salonu, düğün, kına, kına gecesi, yemekli, organizasyon, nikah salonu, nikah, nişan, nişan organizasyonu, büyük salon, lüks salon"
+      }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
