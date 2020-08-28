@@ -27,4 +27,10 @@ export default {
     transform: translateY(-10px);
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .card:hover {
+    transform: unset;
+  }
+}
 </style>

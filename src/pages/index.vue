@@ -40,7 +40,23 @@
             v-for="(card, index) in cards"
             :key="index"
             :card="card"
-            :class="{ 'column': true, 'mx-4': index % 2 && screenSize > 1024, 'my-4': screenSize < 1024 }"
+            :class="{ 'column': true, 'mx-4': index % 2 && screenSize && screenSize > 1024, 'my-4': screenSize && screenSize < 1024 }"
+          />
+        </div>
+      </section>
+
+      <section class="my-6" id="hizmetlerimiz">
+        <h2 class="menu-label is-size-5">Hizmetlerimiz</h2>
+
+        <div
+          class="columns is-marginless my-4 is-multiline"
+          :style="{ justifyContent: 'space-between' }"
+        >
+          <Box
+            class="column is-one-quarter-desktop"
+            v-for="(box, index) in boxes"
+            :key="index"
+            :box="box"
           />
         </div>
       </section>
@@ -132,6 +148,7 @@
         </div>
 
         <GmapMap
+          class="my-6"
           :center="{ lat: 40.685276, lng: 30.622743 }"
           :zoom="17"
           :style="{ width: '100%', height: '300px' }"
@@ -287,6 +304,24 @@ export default {
           description:
             "Covid-19 ve hijyen detaylarına dikkat edilerek yapılan temizlik ve dahası!",
           gradient: ["rgba(39, 174, 96, 1.0)", "rgba(39, 174, 96, 0.75)"],
+        },
+      ],
+      boxes: [
+        {
+          title: "Düğün Organizasyonu",
+          image: "/images/box/dugun_organizasyonu.jpg",
+        },
+        {
+          title: "Nişan ve Nikah Organizasyonu",
+          image: "/images/box/nisan_organizasyonu.jpg",
+        },
+        {
+          title: "Kına Gecesi",
+          image: "/images/box/kina_gecesi.png",
+        },
+        {
+          title: "Özel Organizasyonlar",
+          image: "/images/box/ozel_organizasyonlar2.jpg",
         },
       ],
     };

@@ -17,7 +17,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "dotenv": "^8.2.0",
     "node-sass": "^4.14.1",
-    "nuxt": "^2.14.3",
+    "nuxt": "^2.14.4",
     "nuxt-buefy": "^0.4.2",
     "sass-loader": "^10.0.1",
     "vue-scroll2": "^0.2.2",

@@ -7,6 +7,9 @@
     </template>
 
     <template slot="end">
+      <b-navbar-item class="has-text-white" @click="goTo('hizmetlerimiz')">
+        <b-icon icon="party-popper" class="mr-2"></b-icon>Hizmetlerimiz
+      </b-navbar-item>
       <b-navbar-item class="has-text-white" @click="goTo('hakkimizda')">
         <b-icon icon="newspaper-variant" class="mr-2"></b-icon>Hakkımızda
       </b-navbar-item>
@@ -21,10 +24,6 @@
 </template>
 
 <style lang="scss" scoped>
-.navbar-item {
-  font-family: "Lexend Deca", sans-serif;
-}
-
 .container .navbar-menu {
   background-color: #000000;
 }
@@ -50,7 +49,6 @@ export default {
   },
   methods: {
     goTo(anchor) {
-      this.$router.push({ hash: `#${anchor === "#" ? "" : anchor}` });
       this.$scrollTo(anchor, { offset: 60 });
     },
   },

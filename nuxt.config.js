@@ -25,6 +25,10 @@ export default {
         content:
           "Batakköylü Düğün Salonu, tüm cemiyetleriniz için sizlerin hizmetinde.",
       },
+      {
+        name: "og:image",
+        content: "/images/logo.png",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
