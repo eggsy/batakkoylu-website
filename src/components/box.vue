@@ -16,7 +16,7 @@
   object-fit: cover;
   text-align: center;
   color: #ffffff;
-  box-shadow: inset 0px 0px 25px 10px black;
+  box-shadow: inset 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.2s;
   cursor: pointer;
 
