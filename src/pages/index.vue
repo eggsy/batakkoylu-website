@@ -67,7 +67,7 @@
         <div class="content">
           <p>Batakköylü Düğün Salonu Sakarya'nın Akyazı ilçesinde 2018 Ağustos ayında hizmetlerine başlamıştır. Amacımız Akyazı'ya yenilik ve değer katacak bu tesisin toplu organizasyonlarda (düğün, cemiyet, toplantı) Akyazının ihtiyaçlarını en kaliteli şekilde karşılaması ve yeni bir soluk getirmesidir. İhtiyaçlar ve kişi sayılarına göre değişmekle birlikte salonumuzda her katta 1000 kişi olmak üzere toplamda 2000 kişiye yakın ağırlanabilmektedir. Özel dizayn havalandırma ve ses sistemlerimizle organizasyona katılan değerli konuklarımıza en kaliteli ve rahat hizmeti vermekteyiz ve onlardan gelen olumlu geri dönüşlerin mutluluğunu yaşamaktayız.</p>
 
-          <p>Salonumuz hizmeti ve müşteri memnuniyetini ön planda tutmayı misyon edinmiş, bu amaç doğrultusunda çalışmalarına başlamış ve ara vermeden hizmet vermeye devam etmektedir. En mutlu günlerinizde sizinle bu heyecanı paylaşıyor ve kaliteden ödün vermeden hizmet verme amacını taşıyoruz.Sizi mutlu görmek bizi mutlu ediyor.</p>
+          <p>Salonumuz hizmeti ve müşteri memnuniyetini ön planda tutmayı misyon edinmiş, bu amaç doğrultusunda çalışmalarına başlamış ve ara vermeden hizmet vermeye devam etmektedir. En mutlu günlerinizde sizinle bu heyecanı paylaşıyor ve kaliteden ödün vermeden hizmet verme amacını taşıyoruz. Sizi mutlu görmek bizi mutlu ediyor.</p>
         </div>
       </section>
 
