@@ -1,6 +1,8 @@
 <template>
   <div class="footer py-6 has-background-black has-text-centered">
-    <img src="/images/logo.png" alt="logo" draggable="false" @click="$scrollTo('#')" />
+    <a href="#" title="En başa dön">
+      <img src="/images/logo.png" alt="logo" draggable="false" />
+    </a>
     <p>Tüm hakları saklıdır.</p>
     <small>Copyright {{ date }} ©</small>
   </div>

@@ -1,22 +1,22 @@
 <template>
   <b-navbar class="container is-fixed-top has-background-black">
     <template slot="brand">
-      <b-navbar-item class="has-background-black" @click="goTo('#')">
+      <b-navbar-item class="has-background-black" href="#">
         <img src="/images/logo.png" alt="Batakköylü Logo" />
       </b-navbar-item>
     </template>
 
     <template slot="end">
-      <b-navbar-item class="has-text-white" @click="goTo('hizmetlerimiz')">
+      <b-navbar-item class="has-text-white" href="#hizmetlerimiz">
         <b-icon icon="party-popper" class="mr-2"></b-icon>Hizmetlerimiz
       </b-navbar-item>
-      <b-navbar-item class="has-text-white" @click="goTo('hakkimizda')">
+      <b-navbar-item class="has-text-white" href="#hakkimizda">
         <b-icon icon="newspaper-variant" class="mr-2"></b-icon>Hakkımızda
       </b-navbar-item>
-      <b-navbar-item class="has-text-white" @click="goTo('galeri')">
+      <b-navbar-item class="has-text-white" href="#galeri">
         <b-icon icon="image-outline" class="mr-2"></b-icon>Galeri
       </b-navbar-item>
-      <b-navbar-item class="has-text-white" @click="goTo('iletisim')">
+      <b-navbar-item class="has-text-white" href="#iletisim">
         <b-icon icon="phone" class="mr-2"></b-icon>İletişim
       </b-navbar-item>
     </template>
@@ -38,19 +38,6 @@ export default {
         burger: false,
       },
     };
-  },
-  mounted() {
-    setTimeout(() => {
-      const hash = this.$route.hash?.replace(/#/g, "");
-      const element = document.getElementById(hash);
-
-      if (element) this.goTo(hash);
-    }, 1000);
-  },
-  methods: {
-    goTo(anchor) {
-      this.$scrollTo(anchor, { offset: 60 });
-    },
   },
 };
 </script>

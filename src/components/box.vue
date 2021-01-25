@@ -1,17 +1,18 @@
 <template>
-  <div
-    class="box"
-    :style="{ background: `url(${box.image}) center` }"
-    @click="$scrollTo('iletisim', { offset: 60 })"
-  >
-    <span class="is-size-5">{{ box.title }}</span>
-  </div>
+  <nuxt-link to="#iletisim">
+    <div class="box" :style="{ background: `url(${box.image}) center` }">
+      <span class="is-size-5">{{ box.title }}</span>
+    </div>
+  </nuxt-link>
 </template>
 
 <style lang="scss" scoped>
+a {
+  text-decoration: none;
+}
+
 .box {
-  width: calc(25% - 5px);
-  position: relative;
+  width: 100%;
   height: 200px;
   object-fit: cover;
   text-align: center;
@@ -25,18 +26,14 @@
   }
 
   span {
-    max-width: 90%;
-    width: fit-content;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
-}
 
-@media only screen and (max-width: 1024px) {
-  .box {
+  @media only screen and (max-width: 1024px) {
     width: 100%;
   }
 }
@@ -45,6 +42,12 @@
 <script>
 export default {
   name: "Box",
-  props: ["box"],
+  props: {
+    box: {
+      type: Object,
+      required: true,
+      default: () => {},
+    },
+  },
 };
 </script>

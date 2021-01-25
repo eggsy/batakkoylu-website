@@ -1,7 +1,7 @@
 import { resolve } from "path";
 
 export default {
-  mode: "spa",
+  ssr: true,
   target: "static",
   rootDir: "./",
   srcDir: "./src",
@@ -31,8 +31,9 @@ export default {
       },
       {
         name: "keywords",
-        content: "sakarya, akyazı, akyazi, düğün, salonu, düğün salonu, düğün, kına, kına gecesi, yemekli, organizasyon, nikah salonu, nikah, nişan, nişan organizasyonu, büyük salon, lüks salon"
-      }
+        content:
+          "sakarya, akyazı, akyazi, düğün, salonu, düğün salonu, düğün, kına, kına gecesi, yemekli, organizasyon, nikah salonu, nikah, nişan, nişan organizasyonu, büyük salon, lüks salon",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -48,10 +49,6 @@ export default {
     {
       mode: "client",
       src: "@/plugins/maps.js",
-    },
-    {
-      mode: "client",
-      src: "@/plugins/scrollbehavior.js",
     },
   ],
   env: {

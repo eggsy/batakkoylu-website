@@ -7,6 +7,12 @@
 </template>
 
 <style lang="scss">
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding: 60px;
+}
+
 body {
   font-family: "Lexend Deca", sans-serif;
 
